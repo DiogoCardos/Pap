@@ -279,7 +279,7 @@ const AddProductForm = () => {
         </div>
       </div>
       <Button
-        label={isLoading ? "A carregar..." : "Add Product"}
+        label={isLoading ? "A carregar..." : "Adicionar Produto"}
         onClick={handleSubmit(onSubmit)}
       />
     </>

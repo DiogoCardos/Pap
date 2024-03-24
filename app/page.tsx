@@ -15,7 +15,7 @@ export default async function Home({searchParams}: HomeProps) {
   const products = await getProducts(searchParams)
 
   if(products.length === 0){
-    return <NullData title = 'Oops! não ha nada para ver aqui. '/>
+    return <NullData title = 'Oops! Não há nada para ver aqui '/>
   }
 
 

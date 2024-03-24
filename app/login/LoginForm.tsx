@@ -64,7 +64,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ currentUser }) => {
 
   return (
     <>
-      <Heading title="Regista te no GigFinder" />
+      <Heading title="Inicie sessão no GigFinder" />
       <Button
         outline
         label="Continuar com Google"
@@ -96,9 +96,9 @@ const LoginForm: React.FC<LoginFormProps> = ({ currentUser }) => {
         onClick={handleSubmit(onSubmit)}
       />
       <p className="text-sm">
-        Do not have an account?{" "}
+        Não tem uma conta?{" "}
         <Link className="underline" href="/register">
-          Sign Up
+          Registe-se
         </Link>
       </p>
     </>

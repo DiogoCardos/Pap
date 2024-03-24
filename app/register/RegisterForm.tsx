@@ -76,7 +76,7 @@ const RegisterForm: React.FC<RegisterFormProps> = ({ currentUser }) => {
 
   return (
     <>
-      <Heading title="Loga te no GigFinder" />
+      <Heading title="Registe-se no GigFinder" />
       <Button
         outline
         label="Continue with Google"
@@ -112,13 +112,13 @@ const RegisterForm: React.FC<RegisterFormProps> = ({ currentUser }) => {
         type="password"
       />
       <Button
-        label={isLoading ? "A carregar" : "Loga te"}
+        label={isLoading ? "A carregar" : "Registar"}
         onClick={handleSubmit(onSubmit)}
       />
       <p className="text-sm">
-        Ja tens uma conta?{" "}
+        Já tens uma conta?{" "}
         <Link className="underline" href="/login">
-          Regista-te
+          Inicia Sessão
         </Link>
       </p>
     </>

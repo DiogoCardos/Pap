@@ -13,13 +13,13 @@ const NavBar = async () => {
   return (
     <div
       className="
-  sticky
-  top-0
-  w-full
-  bg-slate-200
-  z-30
-  shadow-sm
-  "
+        sticky
+        top-0
+        w-full
+      bg-slate-200
+        z-30
+        shadow-sm
+        "
     >
       <div className="py-4 border-b-[1px]">
         <Container>
@@ -38,7 +38,6 @@ const NavBar = async () => {
             >
               GigFinder
             </Link>
-            <div className="hidden md:block"><SearchBar/></div>
             <div className="flex items-center gap-8 md:gap-12">
               <CartCount />
               <UserMenu currentUser={currentUser} />
@@ -46,7 +45,7 @@ const NavBar = async () => {
           </div>
         </Container>
       </div>
-      <Categories/>
+      <Categories />
     </div>
   );
 };
